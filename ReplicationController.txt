@@ -1,0 +1,4 @@
+#InstallReplicationController
+kubectl apply -f https://k8s.io/examples/controllers/replication.yaml
+#Check on the status of the ReplicationController using this command
+kubectl describe replicationcontrollers/nginx

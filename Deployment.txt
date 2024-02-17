@@ -1,0 +1,4 @@
+#install deployment
+kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml
+#check components of deployment
+kubectl get deployments
