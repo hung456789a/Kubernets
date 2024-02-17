@@ -1,0 +1,5 @@
+##where configure files is stored /etc/kubernetes
+##path to store certificate
+/etc/kubernetes/pki
+##If a given certificate and private key pair exists before running kubeadm init, 
+##kubeadm does not overwrite them. This means you can, for example, copy an existing CA into /etc/kubernetes/pki/ca.crt and /etc/kubernetes/pki/ca.key, and kubeadm will use this CA for signing the rest of the certificates
